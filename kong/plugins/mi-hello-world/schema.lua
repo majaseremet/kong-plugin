@@ -1,6 +1,5 @@
 local typedefs = require "kong.db.schema.typedefs"
 
--- Grab pluginname from module name
 local plugin_name = ({...})[1]:match("^kong%.plugins%.([^%.]+)")
 
 local schema = {
