@@ -1,4 +1,4 @@
-package = "kong-plugin-mi-hello-world"
+package = "kong-plugin-mihelloworld"
 version = "0.1.0-1"
 
 local pluginName = package:match("^kong%-plugin%-(.+)$")

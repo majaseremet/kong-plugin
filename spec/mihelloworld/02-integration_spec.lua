@@ -1,6 +1,6 @@
 local helpers = require "spec.helpers"
 
-local PLUGIN_NAME = "mi-hello-world"
+local PLUGIN_NAME = "mihelloworld"
 
 for _, strategy in helpers.each_strategy() do
     describe(PLUGIN_NAME .. ": (access) [#" .. strategy .. "]", function()

@@ -1,4 +1,4 @@
-local PLUGIN_NAME = "mi-hello-world"
+local PLUGIN_NAME = "mihelloworld"
 
 
 -- helper function to validate data against a schema
